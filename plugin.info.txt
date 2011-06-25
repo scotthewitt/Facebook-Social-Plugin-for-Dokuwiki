@@ -1,0 +1,7 @@
+base   fbsp
+author Scott
+email  fbs@scotthewitt.co.uk
+date   2010-07-13
+name   fbspplugin
+desc   desc   Facebook Social
+url    http://www.scotthewitt.co.uk/facebook-social-dokuwiki/
