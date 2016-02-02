@@ -38,13 +38,13 @@ class syntax_plugin_fbsp_fblike extends DokuWiki_Syntax_Plugin {
 //        $this->Lexer->addExitPattern('</FIXME>','plugin_fbsp_fblike');
 //    }
 
-    function handle($match, $state, $pos, &$handler){
+    function handle($match, $state, $pos, Doku_Handler $handler){
         $data = array();
 
         return $data;
     }
 
-    function render($mode, &$renderer, $data) {
+    function render($mode, Doku_Renderer $renderer, $data) {
         if($mode != 'xhtml') return false;
 			$renderer->doc .= "<html>
 <div id=\"fb-root\"></div>
